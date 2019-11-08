@@ -6,6 +6,12 @@ Some code-gen templates for developing with Vuex
 
 ## Usage
 
+You'll need to install hygen globally before doing anything
+```bash
+npm i -g hygen
+# Or yarn global add hygen
+```
+
 ### New Project / Playground
 After cloning this project: 
 ```bash
@@ -24,12 +30,9 @@ hygen vuexactions new fetchData --module=users
 As you enter these commands, you can see the actions, mutations, modules, and module blocks being generated in ./src/store!
 
 ### Adding to an existing project 
-Clone this project somewhere and move the _templates directory into your existing project root. Also install hygen with: 
+Clone this project somewhere and move the _templates directory into your existing project root. Also install hygen! 
 
-```bash
-npm i -g hygen
-# Or yarn global add hygen
-```
+
 
 Then you should be able to use the commands. But some caveats:
 * You must have a src/store directory with an index.js and a modules folder
