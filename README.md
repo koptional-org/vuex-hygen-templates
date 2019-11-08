@@ -1,3 +1,9 @@
+
+
+# vuex-hygen-templates
+Some code-gen templates for developing with Vuex
+
+
 # hygen-vuex
 
 ## Project setup
@@ -27,3 +33,4 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
