@@ -15,8 +15,13 @@ npm i -g hygen
 ### New Project / Playground
 After cloning this project: 
 ```bash
-#create an action and some mutations. Use camelCasing for the action!
-hygen action new fetchData
+#just create vanilla actions and mutations (use camelcasing)
+hygen action new myAction
+
+hygen mutation new myMutation
+
+# less trivially, create an asyncronous action and the accompanying mutations. Use camelCasing for the action!
+hygen asyncaction new fetchData
 
 #create a module
 #   users = the name of the module directory
